@@ -5,6 +5,8 @@ Released under the MIT license at https://leodeveloper.pages.dev
 Visit https://leodeveloper.pages.dev/license.html for more information.
 */
 
+    // Dev note : V3 Only Script because Onetap removed fonts in v4, add your own font and then change the corresponding apis
+    
     var COLORNAMES,
         COLORS,
         PRINTABLE,
