@@ -1,4 +1,4 @@
 # onetap-js
-Repository by Monotonized#6495
+Repository by LewdDeveloper (no commit history please)
 
 Javascripting For Onetap.com
