@@ -6,7 +6,7 @@ try
     var search = this
     mainArray = Object.keys(search)
     var round_elapsed_time = performance.now()
-    for (i = 0; i < mainArray.length; i++) {
+    for (i = 1; i < mainArray.length; i++) {
         if (performance.now() - round_elapsed_time > 50 || mainArray[i].includes("mainArray") || mainArray[i].includes("search"))
             break
         var v1, v2 = [], n2
@@ -14,7 +14,7 @@ try
         var type = typeof search[mainArray[i]]
         if (type === "object") {
             var array = Object.getOwnPropertyNames(search[mainArray[i]])
-            for (x = 1, len2 = array.length; x < len2; x++) 
+            for (x = 0, len2 = array.length; x < len2; x++) 
                 v2.push(array[x])             
         }
         for (x = 0, n2 = v2.length; x < n2; x++) {
