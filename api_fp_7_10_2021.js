@@ -684,10 +684,10 @@ api.Cheat.PrintColor([200,Math.floor(Math.random() * 255),175,255], "{ Powered B
 //#endregion
 }
 
-if (typeof exports === "object") 
+if (typeof exports === "object")  {
     exports.apply = apply
+    apply.call()
+}
 else 
     apply.call()
 
-// usage : require("libname").apply.call(globalObject)
-// not : require("libname").apply()
